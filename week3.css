@@ -1,0 +1,28 @@
+body {
+	font-size: 300%;
+}
+
+div[class^=visible] {
+	border: 2px solid black;
+	text-align: center;
+	margin: 5%;
+	box-shadow: 5px 5px 10px #808080;
+}
+
+div[class$=xs], 
+div[class$=sm]{
+	background: seaGreen;
+	color: white;
+	font-family: "calibri", sanserif;
+}
+
+div[class$=md] {
+	background: pink;
+	color: #808080;
+	font-family: "Verdana", sanserif;
+}
+
+div[class$=lg] {
+	background: lightBlue;
+	color: blue;
+}
